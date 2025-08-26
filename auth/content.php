@@ -6,5 +6,5 @@ if ($_GET['page'] == 'login') {
 } elseif ($_GET['page'] == 'reset') {
     include 'reset.php';
 } else {
-    include 'login.php';
+    include '404.php';
 }
