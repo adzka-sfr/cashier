@@ -33,9 +33,31 @@ if ($user) {
     <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;700&display=swap" rel="stylesheet">
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <style>
+        .btn-primary {
+            --bs-btn-bg: #02AEB6;
+            /* base */
+            --bs-btn-border-color: #02AEB6;
+
+            --bs-btn-hover-bg: #029aa1;
+            /* sedikit lebih gelap */
+            --bs-btn-hover-border-color: #029aa1;
+
+            --bs-btn-active-bg: #017d83;
+            /* lebih pekat untuk active */
+            --bs-btn-active-border-color: #017d83;
+
+            --bs-btn-disabled-bg: #02AEB6;
+            --bs-btn-disabled-border-color: #02AEB6;
+
+            --bs-btn-focus-shadow-rgb: 2, 174, 182;
+            /* efek glow saat focus */
+        }
+    </style>
 </head>
 
-<body style="background-color: #D6F3FB;">
+<body style="background-color: #A5E2E5;">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-6">

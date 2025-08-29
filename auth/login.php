@@ -1,7 +1,7 @@
 <div class="card mt-5">
     <div class="card-header text-center">
         <h4>
-            <i class="fas fa-shopping-cart"></i> Cassy
+            <img src="<?php echo base_url('assets/images/brand-label.png'); ?>" alt="cassy-logo" style="height: 40px;">
             <sub style="font-size: 0.3em;">by Adzka</sub>
         </h4>
     </div>

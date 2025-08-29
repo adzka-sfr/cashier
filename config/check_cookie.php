@@ -24,7 +24,7 @@ function getUserFromJwt($jwt, $key)
 }
 
 // Check if the JWT token exists in the cookie
-$jwt = $_COOKIE['duit_token'] ?? null;
+$jwt = $_COOKIE['cashier_token'] ?? null;
 
 if ($jwt === null) {
     if (strpos($_SERVER['REQUEST_URI'], '/auth') === false) {
