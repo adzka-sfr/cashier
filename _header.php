@@ -10,8 +10,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/cashier/config/check_cookie.php'; // 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Duit</title>
-    <link rel="icon" href="<?php echo base_url('assets/images/robot_face.png'); ?>" type="image/png">
+    <title>Cassy</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Select2 CSS -->
@@ -52,6 +51,3 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/cashier/config/check_cookie.php'; // 
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top justify-content-center">
-        <span class="navbar-text text-white font-weight-bold" id="current-date-time"></span>
-    </nav>
