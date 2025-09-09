@@ -28,6 +28,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/cashier/config/check_cookie.php'; // 
     <!-- ECharts JS -->
     <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.2/dist/echarts.min.js"></script>
     <style>
+        /* button */
         .btn-primary {
             --bs-btn-bg: #02AEB6;
             /* base */
@@ -46,6 +47,23 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/cashier/config/check_cookie.php'; // 
 
             --bs-btn-focus-shadow-rgb: 2, 174, 182;
             /* efek glow saat focus */
+        }
+
+        /* background */
+        .bg-primary {
+            background-color: #02AEB6 !important;
+        }
+
+        /* menu-sidebar */
+        .menu-sidebar {
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .menu-sidebar:hover {
+            background-color: #029aa1;
+            text-decoration: none;
         }
     </style>
 </head>

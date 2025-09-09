@@ -13,14 +13,25 @@ include '../_header.php';
 
 <div class="d-flex">
     <!-- Sidebar -->
-    <div class="bg-dark text-white p-3" style="width: 250px; min-height: 100vh;">
-        <h4 class="mb-4">🟦 Cassy</h4>
+    <div class="bg-dark text-white" style="width: 170px; min-height: 100vh;">
+        <h4 style="padding-top: 13px; padding-left: 15px;"><img src="<?php echo base_url('assets/images/brand-logo.png'); ?>" alt="brand-logo" style="width: 30px;"> Cassy</h4>
+        <hr>
         <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link text-white">📊 Dashboard</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link text-white">💳 Transaksi</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link text-white">📦 Stok Barang</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link text-white">📜 Riwayat</a></li>
-            <li class="nav-item"><a href="#" class="nav-link text-white">⚙ Pengaturan</a></li>
+            <li class="nav-item mb-1">
+                <a href="#" class="nav-link menu-sidebar text-white<?php echo ($_GET['page'] ?? '') === 'home' ? ' bg-primary' : ''; ?>">📊 Home</a>
+            </li>
+            <li class="nav-item mb-1">
+                <a href="#" class="nav-link menu-sidebar text-white<?php echo ($_GET['page'] ?? '') === 'transaksi' ? ' bg-primary' : ''; ?>">💳 Transaksi</a>
+            </li>
+            <li class="nav-item mb-1">
+                <a href="#" class="nav-link menu-sidebar text-white<?php echo ($_GET['page'] ?? '') === 'stok' ? ' bg-primary' : ''; ?>">📦 Stok Barang</a>
+            </li>
+            <li class="nav-item mb-1">
+                <a href="#" class="nav-link menu-sidebar text-white<?php echo ($_GET['page'] ?? '') === 'riwayat' ? ' bg-primary' : ''; ?>">📜 Riwayat</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link menu-sidebar text-white<?php echo ($_GET['page'] ?? '') === 'pengaturan' ? ' bg-primary' : ''; ?>">⚙ Pengaturan</a>
+            </li>
         </ul>
     </div>
 
@@ -28,7 +39,7 @@ include '../_header.php';
     <div class="flex-grow-1">
         <!-- Header -->
         <div class="d-flex justify-content-between align-items-center border-bottom p-3">
-            <h5 class="mb-0">Toko Saya</h5>
+            <h5 class="mb-0"></h5>
             <div>
                 <button class="btn btn-sm btn-light">⚙</button>
                 <button class="btn btn-sm btn-light">👤 Engia</button>
@@ -45,18 +56,44 @@ include '../_header.php';
                     <button class="btn btn-outline-secondary">Minuman</button>
                 </div>
 
-                <!-- Grid Produk -->
-                <div class="row g-3">
-                    <div class="col-6 col-md-4">
-                        <div class="card text-center">
-                            <img src="https://via.placeholder.com/150" class="card-img-top">
-                            <div class="card-body p-2">
-                                <p class="mb-1">Kopi</p>
-                                <small>Rp 12.000</small>
-                            </div>
+                <!-- Produk Flex -->
+                <div class="d-flex flex-wrap gap-3">
+                    <div class="card text-center" style="width: 161px;">
+                        <img src="<?php echo base_url('assets/images/brand-logo.png'); ?>" style="height: 80px; object-fit: contain;" class="card-img-top mx-auto mt-2" alt="Produk 1">
+                        <div class="card-body p-2">
+                            <p class="mb-1">Kopi</p>
+                            <small>Rp 12.000</small>
                         </div>
                     </div>
-                    <!-- Tambahkan produk lain... -->
+                    <div class="card text-center" style="width: 161px;">
+                        <img src="<?php echo base_url('assets/images/brand-logo.png'); ?>" style="height: 80px; object-fit: contain;" class="card-img-top mx-auto mt-2" alt="Produk 1">
+                        <div class="card-body p-2">
+                            <p class="mb-1">Kopi</p>
+                            <small>Rp 12.000</small>
+                        </div>
+                    </div>
+                    <div class="card text-center" style="width: 161px;">
+                        <img src="<?php echo base_url('assets/images/brand-logo.png'); ?>" style="height: 80px; object-fit: contain;" class="card-img-top mx-auto mt-2" alt="Produk 1">
+                        <div class="card-body p-2">
+                            <p class="mb-1">Kopi</p>
+                            <small>Rp 12.000</small>
+                        </div>
+                    </div>
+                    <div class="card text-center" style="width: 161px;">
+                        <img src="<?php echo base_url('assets/images/brand-logo.png'); ?>" style="height: 80px; object-fit: contain;" class="card-img-top mx-auto mt-2" alt="Produk 1">
+                        <div class="card-body p-2">
+                            <p class="mb-1">Kopi</p>
+                            <small>Rp 12.000</small>
+                        </div>
+                    </div>
+                    <div class="card text-center" style="width: 161px;">
+                        <img src="<?php echo base_url('assets/images/brand-logo.png'); ?>" style="height: 80px; object-fit: contain;" class="card-img-top mx-auto mt-2" alt="Produk 1">
+                        <div class="card-body p-2">
+                            <p class="mb-1">Kopi</p>
+                            <small>Rp 12.000</small>
+                        </div>
+                    </div>
+                    <!-- Tambahkan produk lain di sini dengan card yang sama -->
                 </div>
             </div>
 
