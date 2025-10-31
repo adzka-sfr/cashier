@@ -4,47 +4,53 @@
         <h6>Produk</h6>
         <div class="d-flex mb-3">
             <input type="text" class="form-control me-2" placeholder="Cari produk">
-            <button class="btn btn-outline-secondary">Minuman</button>
+            <!-- <button class="btn btn-outline-secondary">Minuman</button> -->
         </div>
 
         <!-- Produk Flex -->
         <div class="d-flex flex-wrap gap-3">
-            <div class="card text-center" style="width: 161px;">
+            <div class="card text-center" style="width: 161px; cursor: pointer;">
                 <img src="<?php echo base_url('assets/images/brand-logo.png'); ?>" style="height: 80px; object-fit: contain;" class="card-img-top mx-auto mt-2" alt="Produk 1">
                 <div class="card-body p-2">
                     <p class="mb-1">Kopi</p>
                     <small>Rp 12.000</small>
                 </div>
             </div>
-            <div class="card text-center" style="width: 161px;">
+            <div class="card text-center" style="width: 161px; cursor: pointer;">
                 <img src="<?php echo base_url('assets/images/brand-logo.png'); ?>" style="height: 80px; object-fit: contain;" class="card-img-top mx-auto mt-2" alt="Produk 1">
                 <div class="card-body p-2">
                     <p class="mb-1">Kopi</p>
                     <small>Rp 12.000</small>
                 </div>
             </div>
-            <div class="card text-center" style="width: 161px;">
+            <div class="card text-center" style="width: 161px; cursor: pointer;">
                 <img src="<?php echo base_url('assets/images/brand-logo.png'); ?>" style="height: 80px; object-fit: contain;" class="card-img-top mx-auto mt-2" alt="Produk 1">
                 <div class="card-body p-2">
                     <p class="mb-1">Kopi</p>
                     <small>Rp 12.000</small>
                 </div>
             </div>
-            <div class="card text-center" style="width: 161px;">
+            <div class="card text-center" style="width: 161px; cursor: pointer;">
                 <img src="<?php echo base_url('assets/images/brand-logo.png'); ?>" style="height: 80px; object-fit: contain;" class="card-img-top mx-auto mt-2" alt="Produk 1">
                 <div class="card-body p-2">
                     <p class="mb-1">Kopi</p>
                     <small>Rp 12.000</small>
                 </div>
             </div>
-            <div class="card text-center" style="width: 161px;">
+            <div class="card text-center" style="width: 161px; cursor: pointer;">
                 <img src="<?php echo base_url('assets/images/brand-logo.png'); ?>" style="height: 80px; object-fit: contain;" class="card-img-top mx-auto mt-2" alt="Produk 1">
                 <div class="card-body p-2">
                     <p class="mb-1">Kopi</p>
                     <small>Rp 12.000</small>
                 </div>
             </div>
-            <!-- Tambahkan produk lain di sini dengan card yang sama -->
+            <div class="card text-center" style="width: 161px; cursor: pointer;">
+                <img src="<?php echo base_url('assets/images/brand-logo.png'); ?>" style="height: 80px; object-fit: contain;" class="card-img-top mx-auto mt-2" alt="Produk 1">
+                <div class="card-body p-2">
+                    <p class="mb-1">Kopi</p>
+                    <small>Rp 12.000</small>
+                </div>
+            </div>
         </div>
     </div>
 
