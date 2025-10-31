@@ -18,19 +18,19 @@ include '../_header.php';
         <hr>
         <ul class="nav flex-column">
             <li class="nav-item mb-1">
-                <a href="#" class="nav-link menu-sidebar text-white<?php echo ($_GET['page'] ?? '') === 'home' ? ' bg-primary' : ''; ?>">📊 Home</a>
+                <a href="main.php?page=home" class="nav-link menu-sidebar text-white<?php echo ($_GET['page'] ?? '') === 'home' ? ' bg-primary' : ''; ?>">📊 Home</a>
             </li>
             <li class="nav-item mb-1">
-                <a href="#" class="nav-link menu-sidebar text-white<?php echo ($_GET['page'] ?? '') === 'transaksi' ? ' bg-primary' : ''; ?>">💳 Transaksi</a>
+                <a href="main.php?page=transaksi" class="nav-link menu-sidebar text-white<?php echo ($_GET['page'] ?? '') === 'transaksi' ? ' bg-primary' : ''; ?>">💳 Transaksi</a>
             </li>
             <li class="nav-item mb-1">
-                <a href="#" class="nav-link menu-sidebar text-white<?php echo ($_GET['page'] ?? '') === 'stok' ? ' bg-primary' : ''; ?>">📦 Stok Barang</a>
+                <a href="main.php?page=stok" class="nav-link menu-sidebar text-white<?php echo ($_GET['page'] ?? '') === 'stok' ? ' bg-primary' : ''; ?>">📦 Stok Barang</a>
             </li>
             <li class="nav-item mb-1">
-                <a href="#" class="nav-link menu-sidebar text-white<?php echo ($_GET['page'] ?? '') === 'riwayat' ? ' bg-primary' : ''; ?>">📜 Riwayat</a>
+                <a href="main.php?page=riwayat" class="nav-link menu-sidebar text-white<?php echo ($_GET['page'] ?? '') === 'riwayat' ? ' bg-primary' : ''; ?>">📜 Riwayat</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link menu-sidebar text-white<?php echo ($_GET['page'] ?? '') === 'pengaturan' ? ' bg-primary' : ''; ?>">⚙ Pengaturan</a>
+                <a href="main.php?page=pengaturan" class="nav-link menu-sidebar text-white<?php echo ($_GET['page'] ?? '') === 'pengaturan' ? ' bg-primary' : ''; ?>">⚙ Pengaturan</a>
             </li>
         </ul>
     </div>

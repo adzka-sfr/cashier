@@ -1,14 +1,14 @@
 <?php
 if ($_GET['page'] == 'home') {
     include '1_home.php';
-} elseif ($_GET['page'] == 'customize') {
-    include '2_customize.php';
-} elseif ($_GET['page'] == 'budget') {
-    include '3_budget.php';
-} elseif ($_GET['page'] == 'settings') {
-    include '4_settings.php';
-} elseif ($_GET['page'] == 'info') {
-    include '5_info.php';
+} elseif ($_GET['page'] == 'transaksi') {
+    include '2_transaksi.php';
+} elseif ($_GET['page'] == 'stok') {
+    include '3_stok.php';
+} elseif ($_GET['page'] == 'riwayat') {
+    include '4_riwayat.php';
+} elseif ($_GET['page'] == 'pengaturan') {
+    include '5_pengaturan.php';
 } else {
     include '404.php';
 }
